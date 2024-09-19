@@ -2,10 +2,22 @@
 Machine Learning es una asignatura práctica, dictada en modalidad presencial, del área formativa de especialidad, que desarrolla aprendizajes al estudiante que permiten conocer, aplicar e implementar soluciones basadas en machine learning para problemas que involucren el uso de imágenes o texto.
 
 ## Uso y ejecución ##
-Debes de ejecutarlo con Python 3.10^.
+Debes de tener Git y Python instalado.
+
+Windows
 ```sh
-git 
+git clone https://github.com/SebaMorales74/machine-learning-inacap-evaluacion-1.git
+cd machine-learning-inacap-evaluacion-1
 pip install -r requirements.txt
+python main.py
+```
+
+Linux / MacOS
+```sh
+git clone https://github.com/SebaMorales74/machine-learning-inacap-evaluacion-1.git
+cd machine-learning-inacap-evaluacion-1
+pip install -r requirements.txt
+python3 main.py
 ```
 
 ## Contexto ##
