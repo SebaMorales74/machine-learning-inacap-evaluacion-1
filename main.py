@@ -1,5 +1,5 @@
-from components.generadorDeDatos import GeneradorDeDatos
-from components.predicciones import 
+from components.generadorDeDatos import *
+from components.predicciones import *
 
 
 def main() -> None:
