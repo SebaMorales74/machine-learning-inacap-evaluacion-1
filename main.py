@@ -1,12 +1,21 @@
+"""
+Script principal.
+Debes de ejecutar este archivo para que se ejecute el programa,
+si deseas realizar pruebas, puedes hacerlo ejecutando los archivos de los módulos.
+"""
+
 from components.generadorDeDatos import *
-from components.predicciones import *
+from components.modelo import *
 
 
-def main() -> None:
+def main():
     gdd: GeneradorDeDatos = GeneradorDeDatos()
     gdd.generarDatos(100)
     datos = gdd.getDatos()
-    print(datos)
+
+    modelo: Modelo = Modelo(datos)
+    modelo.aprendizajeSupervisado()
+    modelo.aprendizajeNoSupervisado()
 
 
 if __name__ == '__main__':
